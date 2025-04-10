@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+  <script src="script.js" defer></script>
+  <title>SVG Manipulation Tool</title>
+</head>
+
+<body>
+  <!--
+<div class="vertical">
+  <div class="marquee">
+    TESTING
+  </div>
+</div>
+-->
+  <div class="column">
+    <h5>SVG Manipulation Tool</h5>
+      <p>Your uploaded SVG file is converted into ways: <br>
+        [1] converts the smooth anchor points of SVG paths to angled ones, [2] showcase the code that make up the converted SVG <br> <br>
+    <div id="dropZone">
+        Drop your SVG file here or click </p>
+        <label class="custom-file-upload">
+          <input type="file" id="fileInput" accept=".svg">
+          Custom Upload
+      </label>
+    </div>
+    <h5> Web as Tool | Clara Cayosa April 2025 </h5>
+  </div>
+
+
+  <div class="column">
+    
+    <h5>PREVIEW: Converted SVG</h2>
+      <div id="svgPreview"></div>
+      <button id="downloadBtn" disabled>Download Converted SVG</button>
+      <h5>PREVIEW: SVG Code</h3>
+        <pre id="svgCode">Waiting for SVG...</pre>
+
+  </div>
+</body>
+</body>
+
+</html>
